@@ -1,0 +1,21 @@
+{
+    "name": "uis/module-imageurls",
+    "description": "Shows or hides image urls list block instead image gallery block depends on settings in admin area",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "michaelg08@ukrinsoft.com",
+            "name": "Mykhailo Husak"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "UIS\\ImageUrls\\": ""
+        }
+    }
+}

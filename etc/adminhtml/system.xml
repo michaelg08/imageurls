@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+	<tab id="uis_imageurls" sortOrder="999" translate="label">
+	    <label>UIS</label>
+	</tab>
+	<section id="uis_imageurls_config" showInDefault="1" showInStore="1" showInWebsite="1" translate="label">
+	    <label>Configuration</label>
+	    <tab>uis_imageurls</tab>
+	    <resource>UIS_ImageUrls::config_uis_imageurls</resource>
+	    <group id="default" showInDefault="1" showInStore="1" showInWebsite="1" translate="label">
+		<label>Options</label>
+		<field id="uis_imageurls_enable" showInDefault="1" showInStore="1" showInWebsite="1" translate="label" type="select">
+		    <label>Is Enabled</label>
+		    <comment/>
+		    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+		</field>
+	    </group>
+	</section>
+    </system>
+</config>
